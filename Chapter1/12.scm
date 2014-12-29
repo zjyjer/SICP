@@ -1,5 +1,6 @@
 #lang planet neil/sicp
 
+;recursive:
 (define (Pascal n row)
   (cond ((< row n) 0)
        ((= row n) 1)
